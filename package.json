@@ -1,0 +1,22 @@
+{
+  "name": "resumeiq-ai-resume-analyzer",
+  "version": "1.0.0",
+  "description": "AI-Powered Resume Analyzer using MERN Stack and Google Gemini API",
+  "scripts": {
+    "start": "cd server && node server.js",
+    "server": "cd server && node server.js",
+    "client": "cd client && npm run dev",
+    "dev": "node -e \"const { spawn } = require('child_process'); spawn('npm', ['run', 'server'], { stdio: 'inherit', shell: true }); spawn('npm', ['run', 'client'], { stdio: 'inherit', shell: true });\"",
+    "test": "cd server && npm test",
+    "build": "cd client && npm run build"
+  },
+  "keywords": [
+    "resume",
+    "analyzer",
+    "ai",
+    "gemini",
+    "mern"
+  ],
+  "author": "",
+  "license": "ISC"
+}
